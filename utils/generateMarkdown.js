@@ -46,7 +46,7 @@ function generateMarkdown(data) {
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contribution Guidelines](##contribution-guidelines)
+- [Contributor Guidelines](#contributor-guidelines)
 - [Test](#test)
 - [Questions](#questions)
 
@@ -58,7 +58,7 @@ ${data.installation}
 
 ${data.usage}
 
-## Contribution Guidelines
+## Contributor Guidelines
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
