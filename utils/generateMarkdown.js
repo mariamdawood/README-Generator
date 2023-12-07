@@ -22,7 +22,8 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license) {
-    return `This project is licensed under the [${license}](https://opensource.org/licenses/${license}) license.`
+    const licenseLink = renderLicenseLink(license)
+    return `This project is licensed under the [${license}](${licenseLink}) license.`
   } else {
     return ''
   }
@@ -32,11 +33,9 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
 
   const licenseBadge = renderLicenseBadge(data.license)
-  const licenseLink = renderLicenseLink(data.license)
   const licenseSection = renderLicenseSection(data.license)
 
-  return `# ${data.title}
-  ${licenseBadge}
+  return `# ${data.title} ${licenseBadge}
 
   ${data.description}
 
@@ -75,13 +74,13 @@ ${data.test}
 
 ## License
 
-${licenseSection} [License Link: ](${licenseLink})
+${licenseSection}
 
 ## Questions
 
 For any questions or additional information, please contact me:
-  - [Email: ](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect)
-  - [GitHub: ](https://github.com/${data.username})
+  - [Email](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect)
+  - [GitHub](https://github.com/${data.username})
 
 `;
 }
