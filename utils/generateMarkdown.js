@@ -37,15 +37,9 @@ function generateMarkdown(data) {
 
   return `# ${data.title} ${licenseBadge}
 
+  ## Description
+
   ${data.description}
-
-## Deployed Application URL
-
-${data.link}
-
-## Screenshot
-
-![alt-text](${data.screenshot})
 
 ## Table of Contents
 

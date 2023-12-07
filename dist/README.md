@@ -1,14 +1,8 @@
 # README Generator [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+  ## Description
+
   This is a high-quality and professional README.md generator. It prompts users for information about their application repository and generates a README file with well-organized sections.
-
-## Deployed Application URL
-
-N/A
-
-## Screenshot
-
-![alt-text](N/A)
 
 ## Table of Contents
 
@@ -33,7 +27,7 @@ JavaScript, Markdown and Node.js
 
 ## Test
 
-N/A
+Run node index.js
 
 ## License
 

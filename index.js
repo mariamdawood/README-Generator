@@ -18,16 +18,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "link",
-        message: "Deployed Application URL",
-    },
-    {
-        type: "input",
-        name: "screenshot",
-        message: "URL or file path for a screenshot",
-    },
-    {
-        type: "input",
         name: "installation",
         message: "Installation",
     },
