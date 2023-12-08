@@ -18,6 +18,21 @@ const questions = [
     },
     {
         type: "input",
+        name: "viewtext",
+        message: "Deployed Application URL / Walkthrough Video Alt-Text",
+    },
+    {
+        type: "input",
+        name: "viewlink",
+        message: "Deployed Application URL / Walkthrough Video Link",
+    },
+    {
+        type: "input",
+        name: "screenshot",
+        message: "Screenshot",
+    },
+    {
+        type: "input",
         name: "installation",
         message: "Installation",
     },
@@ -30,6 +45,16 @@ const questions = [
         type: "input",
         name: "test",
         message: "Test",
+    },
+    {
+        type: "input",
+        name: "contributorguidelines",
+        message: "Contributor Guidelines"
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Credits",
     },
     {
         type: "list",
@@ -57,8 +82,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log("Creating Professional README.md File...");
         writeToFile("./dist/README.md", generateMarkdown({ ...responses }));
+        console.log("Generated Professional README.md File...");
     });
 }
 

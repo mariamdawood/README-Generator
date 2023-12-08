@@ -38,45 +38,47 @@ function generateMarkdown(data) {
   return `# ${data.title} ${licenseBadge}
 
   ## Description
-
   ${data.description}
 
-## Table of Contents
+  ## Deployed Application URL / Walkthrough Video
+  Link to view: [${data.viewtext}](${data.viewlink})
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributor Guidelines](#contributor-guidelines)
-- [Test](#test)
-- [Questions](#questions)
+  ## Screenshot
+  (${data.screenshot})
 
-## Installation
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Test](#test)
+  - [Contributor Guidelines](#contributor-guidelines)
+  - [Credits](@credits)
+  - [License](#license)
+  - [Questions](#questions)
 
-${data.installation}
+  ## Installation
+  ${data.installation}
 
-## Usage
+  ## Usage
+  ${data.usage}
 
-${data.usage}
+  ## Test
+  ${data.test}
 
-## Contributor Guidelines
+  ## Contributor Guidelines
+  ${data.contributorguidelines}
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  ## Credits
+  ${data.credits}
 
-## Test
+  ## License
+  ${licenseSection}
 
-${data.test}
-
-## License
-
-${licenseSection}
-
-## Questions
-
-For any questions or additional information, please contact me:
+  ## Questions
+  For any questions or additional information, please contact me:
   - [Email](mailto:${data.email}?subject=[GitHub]%20Dev%20Connect)
   - [GitHub](https://github.com/${data.username})
 
-`;
+  `;
 }
 
 module.exports = generateMarkdown;

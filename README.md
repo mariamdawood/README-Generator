@@ -1,41 +1,43 @@
-# README Generator [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# Professional README.md Generator Node.js [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
+  This is a high-quality and professional README.md generator created using Node.js. It prompts users for information about their application repository and generates a README.md file with well-organized sections.
 
-  This is a high-quality and professional README.md generator. It prompts users for information about their application repository and generates a README file with well-organized sections.
+  ## Deployed Application URL / Walkthrough Video
+  Link to view: [Professional README.md Generator Node.js](https://drive.google.com/file/d/1Ta45rKxRNYzlxiNcYtFPleBI_GFXZ4RE/view?usp=drive_link)
 
-## Table of Contents
+  ## Screenshot
+  (N/A)
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributor Guidelines](#contributor-guidelines)
-- [Test](#test)
-- [Questions](#questions)
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Test](#test)
+  - [Contributor Guidelines](#contributor-guidelines)
+  - [Credits](@credits)
+  - [License](#license)
+  - [Questions](#questions)
 
-## Installation
+  ## Installation
+  Clone repository, run npm install and run npm i inquirer@8.2.4
 
-Run node index.js
+  ## Usage
+  Run node index.js and answer questions
 
-## Usage
+  ## Test
+  Please follow installation process followed by usage
 
-JavaScript, Markdown and Node.js
+  ## Contributor Guidelines
+  [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
-## Contributor Guidelines
+  ## Credits
+  None
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+  ## License
+  This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
-## Test
-
-Run node index.js
-
-## License
-
-This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
-
-## Questions
-
-For any questions or additional information, please contact me:
+  ## Questions
+  For any questions or additional information, please contact me:
   - [Email](mailto:mariam.miladd@gmail.com?subject=[GitHub]%20Dev%20Connect)
   - [GitHub](https://github.com/mariamdawood)
 
